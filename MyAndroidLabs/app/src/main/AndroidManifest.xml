@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.verysoft.louis.myandroidlabs" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ToastActivity"
+            android:label="@string/title_activity_toast" >
+        </activity>
+        <activity
+            android:name=".ControlUI.ControlUI"
+            android:label="@string/title_activity_control_ui" >
+        </activity>
+        <activity
+            android:name=".ControlUI.XmlUI"
+            android:label="@string/title_activity_xml_ui" >
+        </activity>
+        <activity
+            android:name=".ControlUI.CodeUI"
+            android:label="@string/title_activity_code_ui" >
+        </activity>
+        <activity
+            android:name=".LayoutMgr.LayoutMgr"
+            android:label="@string/title_activity_layout_mgr" >
+        </activity>
+        <activity
+            android:name=".BasicComponent.BasicComponent"
+            android:label="@string/title_activity_basic_component" >
+        </activity>
+        <activity
+            android:name=".NotificationActivity"
+            android:label="@string/title_activity_notification" >
+        </activity>
+        <activity
+            android:name=".AlertDialogActivity"
+            android:label="@string/title_activity_alert_dialog" >
+        </activity>
+    </application>
+
+</manifest>
