@@ -52,6 +52,10 @@
             android:name=".ButtonEventDemoActivity"
             android:label="Button Event Demo">
         </activity>
+        <activity
+            android:name=".LoginUI.LoginBasicLayout"
+            android:label="Login Basic Layout">
+        </activity>
     </application>
 
 </manifest>

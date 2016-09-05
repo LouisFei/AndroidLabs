@@ -15,6 +15,7 @@ import android.widget.Toast;
 import com.verysoft.louis.myandroidlabs.BasicComponent.BasicComponent;
 import com.verysoft.louis.myandroidlabs.ControlUI.ControlUI;
 import com.verysoft.louis.myandroidlabs.LayoutMgr.LayoutMgr;
+import com.verysoft.louis.myandroidlabs.LoginUI.LoginBasicLayout;
 
 public class MainActivity extends Activity implements View.OnClickListener {
 
@@ -31,6 +32,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         findViewById( R.id.btnNotification).setOnClickListener(this);
         findViewById( R.id.btnAlertDialog).setOnClickListener(this);
         findViewById( R.id.btnEventDemo).setOnClickListener(this);
+        findViewById( R.id.btnShowLoginDemo).setOnClickListener(this);
     }
 
     @Override
@@ -72,6 +74,11 @@ public class MainActivity extends Activity implements View.OnClickListener {
             case R.id.btnEventDemo:{
                 //Toast.makeText(MainActivity.this, "hello button", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(MainActivity.this, ButtonEventDemoActivity.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.btnShowLoginDemo:{
+                Intent intent = new Intent(MainActivity.this, LoginBasicLayout.class);
                 startActivity(intent);
                 break;
             }

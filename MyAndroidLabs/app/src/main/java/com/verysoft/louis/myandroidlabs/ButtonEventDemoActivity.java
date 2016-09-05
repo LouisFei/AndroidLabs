@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 
 import java.util.List;
 
@@ -18,6 +19,7 @@ import java.util.List;
 public class ButtonEventDemoActivity extends Activity {
     //1.声明控件
     private Button btnTest;
+    private EditText etContent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,7 +29,10 @@ public class ButtonEventDemoActivity extends Activity {
 
         //2.关联控件
         btnTest = (Button) findViewById(R.id.btnTest);
+        etContent = (EditText) findViewById(R.id.etContent);
         //所有的控件都是从View派生
+
+        etContent.setText("Hello world");
 
         //3.注册事件监听
         /*Listener listener = new Listener();
@@ -55,6 +60,7 @@ public class ButtonEventDemoActivity extends Activity {
     public void click(View view){
         //事件处理程序
         Log.i("TEST","以XML方式设置事件");
+        etContent.setText("你好世界！");
     }
 
     //内部类
