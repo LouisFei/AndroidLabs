@@ -33,6 +33,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         findViewById( R.id.btnAlertDialog).setOnClickListener(this);
         findViewById( R.id.btnEventDemo).setOnClickListener(this);
         findViewById( R.id.btnShowLoginDemo).setOnClickListener(this);
+        findViewById(R.id.btnImageDemo).setOnClickListener(this);
     }
 
     @Override
@@ -79,6 +80,11 @@ public class MainActivity extends Activity implements View.OnClickListener {
             }
             case R.id.btnShowLoginDemo:{
                 Intent intent = new Intent(MainActivity.this, LoginBasicLayout.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.btnImageDemo:{
+                Intent intent = new Intent(MainActivity.this, ImageDemoActivity.class);
                 startActivity(intent);
                 break;
             }

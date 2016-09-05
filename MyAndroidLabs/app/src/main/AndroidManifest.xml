@@ -56,6 +56,10 @@
             android:name=".LoginUI.LoginBasicLayout"
             android:label="Login Basic Layout">
         </activity>
+        <activity
+            android:name=".ImageDemoActivity"
+            android:label="Image Demo">
+        </activity>
     </application>
 
 </manifest>

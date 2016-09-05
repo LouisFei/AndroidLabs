@@ -39,6 +39,8 @@ public class LoginBasicLayout extends Activity {
             public void onClick(View view) {
                 //当点击确定按钮需完成的工作
                 //在tvResult中显示用户名和密码
+
+                //得到用户的输入
                 String username = etUserName.getText().toString();
                 String password = etPassword.getText().toString();
                 tvResult.setText("用户名：" + username + ", 密码：" + password);
@@ -48,6 +50,10 @@ public class LoginBasicLayout extends Activity {
             @Override
             public void onClick(View view) {
                 //当点击取消按钮需完成的工作
+                //清空控件内容
+                etUserName.setText("");
+                etPassword.setText("");
+                tvResult.setText("");
             }
         });
     }
