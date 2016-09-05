@@ -49,12 +49,12 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
-    <Button android:id="@+id/btnTest"
-        android:text="Test Button"
+    <Button android:id="@+id/btnEventDemo"
+        android:text="按钮事件监听Demo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"/>
 
 
 </LinearLayout>

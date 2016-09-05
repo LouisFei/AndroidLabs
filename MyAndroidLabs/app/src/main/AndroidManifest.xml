@@ -48,6 +48,10 @@
             android:name=".AlertDialogActivity"
             android:label="@string/title_activity_alert_dialog" >
         </activity>
+        <activity
+            android:name=".ButtonEventDemoActivity"
+            android:label="Button Event Demo">
+        </activity>
     </application>
 
 </manifest>

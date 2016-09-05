@@ -18,9 +18,6 @@ import com.verysoft.louis.myandroidlabs.LayoutMgr.LayoutMgr;
 
 public class MainActivity extends Activity implements View.OnClickListener {
 
-    //1.声明控件
-    private Button btnTest;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,28 +30,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         findViewById( R.id.btnToast).setOnClickListener(this);
         findViewById( R.id.btnNotification).setOnClickListener(this);
         findViewById( R.id.btnAlertDialog).setOnClickListener(this);
-        findViewById( R.id.btnTest).setOnClickListener(this);
-
-        //2.关联控件
-        btnTest = (Button) findViewById(R.id.btnTest);
-        //所有的控件都是从View派生
-
-        Listener listener = new Listener();
-        //3.注册事件监听
-        btnTest.setOnClickListener(
-                //实现接口的类对象 View.OnClickListener
-                listener
-        );
-    }
-
-    //内部类
-    class Listener implements View.OnClickListener
-    {
-        @Override
-        public void onClick(View view) {
-            //回调的方法，事件处理程序
-            Log.i("TEST","按钮被单击了!");
-        }
+        findViewById( R.id.btnEventDemo).setOnClickListener(this);
     }
 
     @Override
@@ -93,8 +69,11 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 startActivity(intent);
                 break;
             }
-            case R.id.btnTest:{
-                Toast.makeText(MainActivity.this, "hello button", Toast.LENGTH_SHORT).show();
+            case R.id.btnEventDemo:{
+                //Toast.makeText(MainActivity.this, "hello button", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, ButtonEventDemoActivity.class);
+                startActivity(intent);
+                break;
             }
         }
     }
