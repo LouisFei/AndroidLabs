@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 
 /**
@@ -14,6 +15,15 @@ public class ImageDemoActivity extends Activity{
     //1.声明控件
     private ImageView image;
     private Button btnChange;
+    private ImageButton imgBtn;
+
+    //声明数组，存储资源
+    private int[] resIds = {
+            R.drawable.android_logo,
+            R.drawable.apple,
+            R.drawable.android_worldreader
+    };
+    private int index = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +33,19 @@ public class ImageDemoActivity extends Activity{
         //2.关联
         image = (ImageView) findViewById(R.id.imageView1);
         btnChange = (Button) findViewById(R.id.btnChange);
+        imgBtn = (ImageButton) findViewById(R.id.imageButton1);
+
+        imgBtn.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                //image.setImageResource(R.drawable.android_logo);
+                index++;
+                if (index > resIds.length - 1){
+                    index = 0;
+                }
+                image.setImageResource(resIds[index]);
+            }
+        });
     }
 
     private int flag = 0;
