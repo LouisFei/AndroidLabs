@@ -60,6 +60,10 @@
             android:name=".ImageDemoActivity"
             android:label="Image Demo">
         </activity>
+        <activity
+            android:name=".OptionControlActivity"
+            android:label="Option Control Demo">
+        </activity>
     </application>
 
 </manifest>
