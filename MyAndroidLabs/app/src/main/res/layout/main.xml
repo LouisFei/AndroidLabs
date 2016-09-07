@@ -10,7 +10,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="控制UI界面"
+        android:text="@string/text_control_ui"
         android:id="@+id/btnControlUI"
         android:layout_alignTop="@+id/button1"
         android:layout_alignParentLeft="true"
@@ -19,61 +19,54 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="布局管理器"
+        android:text="@string/text_layout_manager"
         android:id="@+id/btnLayoutMgr" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="基本组件"
+        android:text="@string/text_basic_control"
         android:id="@+id/btnBasicComponent" />
 
     <Button android:id="@+id/btnToast"
-        android:text="Toast演示"
+        android:text="@string/text_toast_demo"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_height="wrap_content"/>
 
     <Button android:id="@+id/btnNotification"
-        android:text="Notification"
+        android:text="@string/text_notification"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_height="wrap_content" />
 
     <Button android:id="@+id/btnAlertDialog"
         android:text="AlertDialog"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_height="wrap_content" />
 
     <Button android:id="@+id/btnEventDemo"
         android:text="按钮事件监听Demo"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"/>
+        android:layout_height="wrap_content"/>
 
     <Button android:id="@+id/btnShowLoginDemo"
         android:text="Login Demo"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"/>
+        android:layout_height="wrap_content"/>
 
     <Button android:id="@+id/btnImageDemo"
         android:text="Image Demo"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"/>
+        android:layout_height="wrap_content"/>
 
     <Button
         android:id="@+id/btnOptionControl"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="选项控件"/>
+
+    <Button
+        android:text="@string/test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>

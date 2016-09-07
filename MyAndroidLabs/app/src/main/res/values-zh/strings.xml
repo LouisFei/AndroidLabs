@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">My Android Labs</string>
-    <string name="title_activity_main">Main UI</string>
+    <string name="app_name">我的安卓实验室</string>
+    <string name="title_activity_main">主界面</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
@@ -14,11 +14,9 @@
     <string name="title_activity_notification">NotificationActivity</string>
     <string name="title_activity_alert_dialog">AlertDialog</string>
 
-    <string name="text_control_ui">control UI layout</string>
-    <string name="text_layout_manager">layout manager</string>
-    <string name="text_basic_control">basic control</string>
-    <string name="text_toast_demo">Toast demo</string>
-    <string name="text_notification">Notification</string>
-
-
+    <string name="text_control_ui">控制UI界面</string>
+    <string name="text_layout_manager">布局管理器</string>
+    <string name="text_basic_control">基本组件</string>
+    <string name="text_toast_demo">Toast演示</string>
+    <string name="text_notification">通知</string>
 </resources>

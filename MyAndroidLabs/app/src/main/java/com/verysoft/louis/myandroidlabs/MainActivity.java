@@ -3,6 +3,7 @@ package com.verysoft.louis.myandroidlabs;
 import android.app.Activity;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -35,6 +36,11 @@ public class MainActivity extends Activity implements View.OnClickListener {
         findViewById( R.id.btnShowLoginDemo).setOnClickListener(this);
         findViewById(R.id.btnImageDemo).setOnClickListener(this);
         findViewById(R.id.btnOptionControl).setOnClickListener(this);
+
+        //在代码中获取字符串资源
+        Resources res = getResources();
+        String strTest = res.getString(R.string.test);
+        Log.i("TEST", "字符串为：" + strTest);
     }
 
     @Override
