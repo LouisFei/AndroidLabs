@@ -66,6 +66,12 @@
         android:background="@color/red"/>
 
     <Button
+        android:id="@+id/btnTouchDemo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="触屏演示" />
+
+    <Button
         android:text="@string/test"
         android:background="@color/red"
         android:layout_width="@dimen/button_width"

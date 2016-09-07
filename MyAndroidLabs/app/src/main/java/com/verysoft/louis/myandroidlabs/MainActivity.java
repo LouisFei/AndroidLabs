@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
@@ -36,6 +37,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         findViewById( R.id.btnShowLoginDemo).setOnClickListener(this);
         findViewById(R.id.btnImageDemo).setOnClickListener(this);
         findViewById(R.id.btnOptionControl).setOnClickListener(this);
+        findViewById(R.id.btnTouchDemo).setOnClickListener(this);
 
         //在代码中获取字符串资源
         Resources res = getResources();
@@ -100,6 +102,38 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 startActivity(intent);
                 break;
             }
+            case R.id.btnTouchDemo:{
+                Intent intent = new Intent(MainActivity.this, TouchEventForViewActivity.class);
+                startActivity(intent);
+                break;
+            }
         }
+    }
+
+    //触屏事件
+    @Override
+    public boolean onTouchEvent(MotionEvent event) {
+        // 按下，移动，弹起
+        int action = event.getAction(); //得到当前用户动作
+        float x = event.getX(); //得到当前用户坐标
+        float y = event.getY();
+        switch (action){
+            case MotionEvent.ACTION_DOWN: //按下
+                Log.i("TEST", "onTouchEvent 按下 " + "X="+ x + ",Y=" + y);
+                break;
+            case MotionEvent.ACTION_MOVE: //移动
+                Log.i("TEST", "onTouchEvent 移动 " + "X="+ x + ",Y=" + y);
+                break;
+            case MotionEvent.ACTION_UP: //弹起
+                Log.i("TEST", "onTouchEvent 弹起 " + "X="+ x + ",Y=" + y);
+                break;
+        }
+
+        //Log.i("TEST", "onTouchEvent");
+
+        //默认返回false，表示在自身方法中没有做完，需要向上传递。
+        //return super.onTouchEvent(event);
+        //如果认为在方法中事情做完了，可以返回true
+        return  true;
     }
 }

@@ -64,6 +64,10 @@
             android:name=".OptionControlActivity"
             android:label="Option Control Demo">
         </activity>
+        <activity
+        android:name=".TouchEventForViewActivity"
+        android:label="触屏演示">
+    </activity>
     </application>
 
 </manifest>
