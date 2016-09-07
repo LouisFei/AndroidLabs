@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="线性布局（水平、垂直）"
-        android:id="@+id/button" />
+        android:id="@+id/btnLinearLayout" />
 
     <Button
         android:layout_width="wrap_content"
