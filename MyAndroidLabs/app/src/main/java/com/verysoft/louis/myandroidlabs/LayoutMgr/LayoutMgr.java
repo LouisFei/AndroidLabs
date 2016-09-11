@@ -24,6 +24,14 @@ public class LayoutMgr extends Activity {
                 startActivity(intent);
             }
         });
+
+        findViewById(R.id.btnLinearGravity).setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(LayoutMgr.this, LinearLayoutDemo2Activity.class);
+                startActivity(intent);
+            }
+        });
     }
 
 }

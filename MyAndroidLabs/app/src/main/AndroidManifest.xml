@@ -71,6 +71,9 @@
         <activity
             android:name=".LayoutMgr.LinearLayoutDemoActivity"
             android:label="线性布局演示" />
+        <activity
+            android:name=".LayoutMgr.LinearLayoutDemo2Activity"
+            android:label="线性布局演示2，动态改变对齐方式" />
     </application>
 
 </manifest>
