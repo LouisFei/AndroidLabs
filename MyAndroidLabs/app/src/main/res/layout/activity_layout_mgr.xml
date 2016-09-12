@@ -23,6 +23,12 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="相对布局"
+        android:id="@+id/btnRelativeLayout" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="表格布局"
         android:id="@+id/button4" />
 
@@ -32,9 +38,5 @@
         android:text="帧布局"
         android:id="@+id/button5" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="相对布局"
-        android:id="@+id/button6" />
+
 </LinearLayout>

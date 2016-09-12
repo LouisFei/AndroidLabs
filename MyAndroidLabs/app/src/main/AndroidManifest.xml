@@ -56,24 +56,12 @@
             android:name=".LoginUI.LoginBasicLayout"
             android:label="Login Basic Layout">
         </activity>
-        <activity
-            android:name=".ImageDemoActivity"
-            android:label="Image Demo">
-        </activity>
-        <activity
-            android:name=".OptionControlActivity"
-            android:label="Option Control Demo">
-        </activity>
-        <activity
-            android:name=".TouchEventForViewActivity"
-            android:label="触屏演示">
-        </activity>
-        <activity
-            android:name=".LayoutMgr.LinearLayoutDemoActivity"
-            android:label="线性布局演示" />
-        <activity
-            android:name=".LayoutMgr.LinearLayoutDemo2Activity"
-            android:label="线性布局演示2，动态改变对齐方式" />
+        <activity android:name=".ImageDemoActivity" android:label="Image Demo" />
+        <activity android:name=".OptionControlActivity" android:label="Option Control Demo" />
+        <activity android:name=".TouchEventForViewActivity" android:label="触屏演示" />
+        <activity android:name=".LayoutMgr.LinearLayoutDemoActivity" android:label="线性布局演示" />
+        <activity android:name=".LayoutMgr.LinearLayoutDemo2Activity" android:label="线性布局演示2，动态改变对齐方式" />
+        <activity android:name=".LayoutMgr.RelativeLayoutDemoActivity" android:label="相对布局演示" />
     </application>
 
 </manifest>

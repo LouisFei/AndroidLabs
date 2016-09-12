@@ -32,6 +32,14 @@ public class LayoutMgr extends Activity {
                 startActivity(intent);
             }
         });
+
+        findViewById(R.id.btnRelativeLayout).setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(LayoutMgr.this, RelativeLayoutDemoActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
 }
