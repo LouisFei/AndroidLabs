@@ -67,6 +67,8 @@
 
         <activity android:name=".LayoutMgr.TableLayoutActivity" android:label="表格布局 基础用法" />
         <activity android:name=".LayoutMgr.TableLayoutDemoActivity" android:label="表格布局，列的扩展、收缩，折叠（隐藏）" />
+
+        <activity android:name=".LayoutMgr.GridLayoutDemoActivity" android:label="网格布局" />
     </application>
 
 </manifest>

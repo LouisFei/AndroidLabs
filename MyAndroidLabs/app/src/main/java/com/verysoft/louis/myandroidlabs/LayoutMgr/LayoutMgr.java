@@ -73,6 +73,15 @@ public class LayoutMgr extends Activity {
                 startActivity(intent);
             }
         });
+
+        //GridLayout
+        findViewById(R.id.btnGridLayout).setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(LayoutMgr.this, GridLayoutDemoActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
 }
