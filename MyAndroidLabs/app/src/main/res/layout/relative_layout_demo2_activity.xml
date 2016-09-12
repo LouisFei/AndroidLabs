@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--基线对齐，用于文本对齐-->
+    <TextView
+        android:id="@+id/tvUrl"
+        android:text="Url:"
+        android:layout_alignBaseline="@+id/etUrl"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etUrl"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/tvUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入URL"/>
+
+
+    <!--
+        padding:内填充距离，边框与内容的距离。
+        margin:外边距离，边框与外部元素的距离。
+    -->
+    <RadioGroup
+        android:layout_below="@+id/etUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:paddingTop="10dp">
+
+        <RadioButton
+            android:text="选项一"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:text="选项二"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:text="选项三"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button1"
+        android:text="button1"
+        android:layout_centerInParent="true"
+        android:background="#ff0000"
+        android:layout_margin="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button2"
+        android:text="button2"
+        android:layout_toRightOf="@+id/button1"
+        android:layout_alignTop="@+id/button1"
+        android:background="#ff0000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
