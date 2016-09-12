@@ -64,6 +64,9 @@
         <activity android:name=".LayoutMgr.RelativeLayoutDemoActivity" android:label="相对布局演示" />
         <activity android:name=".LayoutMgr.RelativeLayoutDemo2Activity" android:label="相对布局演示2" />
         <activity android:name=".LoginUI.LoginDemoLayout" android:label="登录界面（线性与相对布局组合嵌套）" />
+
+        <activity android:name=".LayoutMgr.TableLayoutActivity" android:label="表格布局 基础用法" />
+        <activity android:name=".LayoutMgr.TableLayoutDemoActivity" android:label="表格布局，列的扩展、收缩，折叠（隐藏）" />
     </application>
 
 </manifest>

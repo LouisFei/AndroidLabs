@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- stretchColumns 指定扩展列 -->
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+
+        <TableRow>
+            <Button />
+            <Button />
+            <Button />
+        </TableRow>
+        <TableRow>
+            <Button />
+            <Button />
+        </TableRow>
+        <TableRow>
+            <Button />
+            <Button />
+        </TableRow>
+
+    </TableLayout>
+
+    <View
+        android:background="#000"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" />
+
+    <!-- shrinkColumns 指定收缩列，自动换行 -->
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="1">
+
+        <TableRow>
+            <Button android:text="ButtonAAAAAA" />
+            <Button android:text="ButtonBBBBBB" />
+            <Button android:text="ButtonCCCCCC" />
+        </TableRow>
+        <TableRow>
+            <Button />
+            <Button />
+        </TableRow>
+        <TableRow>
+            <Button />
+            <Button />
+        </TableRow>
+
+    </TableLayout>
+
+    <View
+        android:background="#000"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" />
+
+    <!-- collapseColumns 折叠列，隐藏列 -->
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:collapseColumns="1">
+
+        <TableRow>
+            <Button android:text="Button1" />
+            <Button />
+            <Button android:text="Button3" />
+        </TableRow>
+        <TableRow>
+            <Button android:text="Button1" />
+            <Button />
+            <Button android:text="Button3" />
+        </TableRow>
+        <TableRow>
+            <Button android:text="Button1" />
+            <Button />
+            <Button android:text="Button3" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

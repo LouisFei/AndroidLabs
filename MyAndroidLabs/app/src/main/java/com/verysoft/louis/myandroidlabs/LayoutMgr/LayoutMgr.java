@@ -57,6 +57,22 @@ public class LayoutMgr extends Activity {
                 startActivity(intent);
             }
         });
+
+        //TableLayout
+        findViewById(R.id.btnTableLayout1).setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(LayoutMgr.this, TableLayoutActivity.class);
+                startActivity(intent);
+            }
+        });
+        findViewById(R.id.btnTableLayout2).setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(LayoutMgr.this, TableLayoutDemoActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
 }

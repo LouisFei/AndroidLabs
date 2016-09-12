@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 不使用TableRow则一个控件占满一行 -->
+    <Button android:text="Button" />
+
+    <!-- 在一行中放多个控件，则使用TableRow -->
+    <TableRow>
+        <Button android:text="Button" />
+        <Button android:text="Button" />
+    </TableRow>
+    <TableRow>
+        <Button android:text="Button" />
+        <Button android:text="Button" />
+        <Button android:text="Button" />
+    </TableRow>
+    <TableRow>
+        <Button android:text="Button" />
+        <Button android:text="Button" android:layout_column="2" />
+    </TableRow>
+    <TableRow>
+        <Button android:text="Button" />
+        <Button android:text="Button" android:layout_span="2" />
+    </TableRow>
+</TableLayout>
