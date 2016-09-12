@@ -19,4 +19,7 @@
     <string name="text_basic_control">基本组件</string>
     <string name="text_toast_demo">Toast演示</string>
     <string name="text_notification">通知</string>
+
+    <string name="login">登录</string>
+    <string name="register">注册</string>
 </resources>

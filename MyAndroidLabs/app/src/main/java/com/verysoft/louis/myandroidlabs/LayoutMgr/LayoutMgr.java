@@ -8,6 +8,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+import com.verysoft.louis.myandroidlabs.LoginUI.LoginDemoLayout;
 import com.verysoft.louis.myandroidlabs.R;
 
 public class LayoutMgr extends Activity {
@@ -45,6 +46,14 @@ public class LayoutMgr extends Activity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(LayoutMgr.this, RelativeLayoutDemo2Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        findViewById(R.id.btnLoginDemo).setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(LayoutMgr.this, LoginDemoLayout.class);
                 startActivity(intent);
             }
         });

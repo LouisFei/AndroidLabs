@@ -35,6 +35,12 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="登录界面（线性与相对布局组合嵌套）"
+        android:id="@+id/btnLoginDemo" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="表格布局"
         android:id="@+id/button4" />
 

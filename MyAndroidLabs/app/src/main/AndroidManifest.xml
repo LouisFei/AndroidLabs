@@ -63,6 +63,7 @@
         <activity android:name=".LayoutMgr.LinearLayoutDemo2Activity" android:label="线性布局演示2，动态改变对齐方式" />
         <activity android:name=".LayoutMgr.RelativeLayoutDemoActivity" android:label="相对布局演示" />
         <activity android:name=".LayoutMgr.RelativeLayoutDemo2Activity" android:label="相对布局演示2" />
+        <activity android:name=".LoginUI.LoginDemoLayout" android:label="登录界面（线性与相对布局组合嵌套）" />
     </application>
 
 </manifest>
