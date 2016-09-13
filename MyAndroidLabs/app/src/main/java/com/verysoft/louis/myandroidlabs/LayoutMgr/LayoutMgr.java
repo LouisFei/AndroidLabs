@@ -82,6 +82,15 @@ public class LayoutMgr extends Activity {
                 startActivity(intent);
             }
         });
+
+        //FrameLayout
+        findViewById(R.id.btnFrameLayout).setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(LayoutMgr.this, FrameLayoutDemo.class);
+                startActivity(intent);
+            }
+        });
     }
 
 }

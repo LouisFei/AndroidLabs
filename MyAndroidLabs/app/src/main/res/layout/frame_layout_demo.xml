@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:id="@+id/layout">
 
     <TextView
         android:id="@+id/tvFinish"
@@ -9,11 +10,18 @@
         android:textSize="40dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        />
     
     <TextView
         android:id="@+id/tvTouch"
-        android:text="hello"
+        android:text="请用手指滑动屏幕完成验证"
+        android:textSize="20dp"
+        android:gravity="bottom|center_horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
         android:background="@drawable/android_logo"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
