@@ -18,7 +18,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ToastActivity" android:label="@string/title_activity_toast" />
+        <activity android:name=".MessageShow.ToastDemoActivity" android:label="@string/title_activity_toast" />
         <activity android:name=".ControlUI.ControlUI" android:label="@string/title_activity_control_ui" />
         <activity android:name=".ControlUI.XmlUI" android:label="@string/title_activity_xml_ui" />
         <activity android:name=".ControlUI.CodeUI" android:label="@string/title_activity_code_ui" />

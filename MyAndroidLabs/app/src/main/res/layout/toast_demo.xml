@@ -7,35 +7,56 @@
         android:layout_height="wrap_content"
         android:layout_width="fill_parent"
         android:id="@+id/btnSimpleToast"
-        android:text="默认">
+        android:text="使用静态方法makeText构建Toast"
+        android:onClick="displayToast">
+    </Button>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:id="@+id/btnConstructorToast"
+        android:text="使用构造函数构建Toast"
+        android:onClick="displayToast">
+    </Button>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:id="@+id/btnConstructorToast2"
+        android:text="构造显示图标文字Toast"
+        android:onClick="displayToast">
     </Button>
 
     <Button
         android:layout_height="wrap_content"
         android:layout_width="fill_parent"
         android:text="自定义显示位置"
-        android:id="@+id/btnSimpleToastWithCustomPosition">
+        android:id="@+id/btnSimpleToastWithCustomPosition"
+        android:onClick="displayToast">
     </Button>
 
     <Button
         android:layout_height="wrap_content"
         android:layout_width="fill_parent"
         android:id="@+id/btnSimpleToastWithImage"
-        android:text="带图片">
+        android:text="带图片"
+        android:onClick="displayToast">
     </Button>
 
     <Button
         android:layout_height="wrap_content"
         android:layout_width="fill_parent"
         android:text="完全自定义"
-        android:id="@+id/btnCustomToast">
+        android:id="@+id/btnCustomToast"
+        android:onClick="displayToast">
     </Button>
 
     <Button
         android:layout_height="wrap_content"
         android:layout_width="fill_parent"
         android:text="其他线程"
-        android:id="@+id/btnRunToastFromOtherThread">
+        android:id="@+id/btnRunToastFromOtherThread"
+        android:onClick="displayToast">
     </Button>
 
 </LinearLayout>

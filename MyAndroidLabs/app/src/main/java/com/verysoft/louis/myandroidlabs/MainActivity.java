@@ -12,6 +12,7 @@ import com.verysoft.louis.myandroidlabs.BasicComponent.BasicComponent;
 import com.verysoft.louis.myandroidlabs.ControlUI.ControlUI;
 import com.verysoft.louis.myandroidlabs.LayoutMgr.LayoutMgr;
 import com.verysoft.louis.myandroidlabs.LoginUI.LoginBasicLayout;
+import com.verysoft.louis.myandroidlabs.MessageShow.ToastDemoActivity;
 
 public class MainActivity extends Activity implements View.OnClickListener {
 
@@ -24,7 +25,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         findViewById( R.id.btnControlUI).setOnClickListener(this);
         findViewById( R.id.btnLayoutMgr).setOnClickListener(this);
         findViewById( R.id.btnBasicComponent).setOnClickListener(this);
-        findViewById( R.id.btnToast).setOnClickListener(this);
+        findViewById( R.id.btnToastDemo).setOnClickListener(this);
         findViewById( R.id.btnNotification).setOnClickListener(this);
         findViewById( R.id.btnAlertDialog).setOnClickListener(this);
         findViewById( R.id.btnEventDemo).setOnClickListener(this);
@@ -60,8 +61,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 startActivity(intent);
                 break;
             }
-            case R.id.btnToast: {
-                Intent intent = new Intent(MainActivity.this, ToastActivity.class);
+            case R.id.btnToastDemo: {
+                Intent intent = new Intent(MainActivity.this, ToastDemoActivity.class);
                 startActivity(intent);
                 break;
             }
