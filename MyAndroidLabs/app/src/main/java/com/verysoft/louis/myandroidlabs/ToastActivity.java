@@ -1,15 +1,13 @@
 package com.verysoft.louis.myandroidlabs;
 
-import android.support.v7.app.ActionBarActivity;
+import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Gravity;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
-public class ToastActivity extends ActionBarActivity implements View.OnClickListener {
+public class ToastActivity extends Activity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

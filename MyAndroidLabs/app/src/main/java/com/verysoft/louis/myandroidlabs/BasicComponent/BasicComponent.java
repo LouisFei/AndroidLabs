@@ -1,13 +1,13 @@
 package com.verysoft.louis.myandroidlabs.BasicComponent;
 
-import android.support.v7.app.ActionBarActivity;
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
 import com.verysoft.louis.myandroidlabs.R;
 
-public class BasicComponent extends ActionBarActivity {
+public class BasicComponent extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

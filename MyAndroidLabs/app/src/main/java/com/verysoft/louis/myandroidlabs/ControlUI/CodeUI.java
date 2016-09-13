@@ -1,25 +1,20 @@
 package com.verysoft.louis.myandroidlabs.ControlUI;
 
-import android.app.ActionBar;
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
-import android.content.res.ColorStateList;
 import android.graphics.Color;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.util.TypedValue;
 import android.view.Gravity;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
 import com.verysoft.louis.myandroidlabs.R;
 
-public class CodeUI extends ActionBarActivity {
+public class CodeUI extends Activity {
 
     public TextView textView2;
 

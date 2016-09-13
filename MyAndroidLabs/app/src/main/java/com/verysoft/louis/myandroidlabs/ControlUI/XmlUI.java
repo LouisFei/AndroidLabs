@@ -1,13 +1,11 @@
 package com.verysoft.louis.myandroidlabs.ControlUI;
 
-import android.support.v7.app.ActionBarActivity;
+import android.app.Activity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 
 import com.verysoft.louis.myandroidlabs.R;
 
-public class XmlUI extends ActionBarActivity {
+public class XmlUI extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

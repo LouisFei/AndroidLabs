@@ -2,7 +2,6 @@ package com.verysoft.louis.myandroidlabs.LayoutMgr;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.text.Layout;
 import android.view.Gravity;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;

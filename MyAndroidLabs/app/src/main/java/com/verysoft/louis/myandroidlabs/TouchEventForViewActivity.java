@@ -6,8 +6,6 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
-
 /**
  * 触屏Demo
  * Created by Administrator on 2016/9/7.
