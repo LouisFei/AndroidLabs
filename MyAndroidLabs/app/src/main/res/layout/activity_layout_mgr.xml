@@ -62,5 +62,11 @@
         android:text="帧布局"
         android:id="@+id/btnFrameLayout" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Drawer Layout侧滑菜单布局"
+        android:id="@+id/btnDrawerLayout"/>
+
 
 </LinearLayout>

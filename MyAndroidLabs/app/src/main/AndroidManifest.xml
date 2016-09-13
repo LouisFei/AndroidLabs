@@ -71,6 +71,7 @@
         <activity android:name=".LayoutMgr.GridLayoutDemoActivity" android:label="网格布局" />
 
         <activity android:name=".LayoutMgr.FrameLayoutDemo" android:label="帧布局" />
+        <activity android:name=".LayoutMgr.DrawerLayoutDemoActivity" android:label="侧滑菜单布局" />
     </application>
 
 </manifest>

@@ -91,6 +91,15 @@ public class LayoutMgr extends Activity {
                 startActivity(intent);
             }
         });
+
+        //DrawerLayout
+        findViewById(R.id.btnDrawerLayout).setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(LayoutMgr.this, DrawerLayoutDemoActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
 }
