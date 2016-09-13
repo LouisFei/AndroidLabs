@@ -7,55 +7,28 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
-        <activity
-            android:name=".MainActivity"
-            android:label="@string/title_activity_main" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
+        <!--四大基本组件：Activity, ContentProvider, Service, BroadcastReceiver-->
+        <!--组件必须在Manifest.xml文件中说明-->
+        <activity android:name=".MainActivity" android:label="@string/title_activity_main" >
+            <intent-filter>
+                <!--入口点-->
+                <action android:name="android.intent.action.MAIN" />
+                <!--启动项-->
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".ToastActivity"
-            android:label="@string/title_activity_toast" >
-        </activity>
-        <activity
-            android:name=".ControlUI.ControlUI"
-            android:label="@string/title_activity_control_ui" >
-        </activity>
-        <activity
-            android:name=".ControlUI.XmlUI"
-            android:label="@string/title_activity_xml_ui" >
-        </activity>
-        <activity
-            android:name=".ControlUI.CodeUI"
-            android:label="@string/title_activity_code_ui" >
-        </activity>
-        <activity
-            android:name=".LayoutMgr.LayoutMgr"
-            android:label="@string/title_activity_layout_mgr" >
-        </activity>
-        <activity
-            android:name=".BasicComponent.BasicComponent"
-            android:label="@string/title_activity_basic_component" >
-        </activity>
-        <activity
-            android:name=".NotificationActivity"
-            android:label="@string/title_activity_notification" >
-        </activity>
-        <activity
-            android:name=".AlertDialogActivity"
-            android:label="@string/title_activity_alert_dialog" >
-        </activity>
-        <activity
-            android:name=".ButtonEventDemoActivity"
-            android:label="Button Event Demo">
-        </activity>
-        <activity
-            android:name=".LoginUI.LoginBasicLayout"
-            android:label="Login Basic Layout">
-        </activity>
+        <activity android:name=".ToastActivity" android:label="@string/title_activity_toast" />
+        <activity android:name=".ControlUI.ControlUI" android:label="@string/title_activity_control_ui" />
+        <activity android:name=".ControlUI.XmlUI" android:label="@string/title_activity_xml_ui" />
+        <activity android:name=".ControlUI.CodeUI" android:label="@string/title_activity_code_ui" />
+        <activity android:name=".LayoutMgr.LayoutMgr" android:label="@string/title_activity_layout_mgr" />
+        <activity android:name=".BasicComponent.BasicComponent" android:label="@string/title_activity_basic_component" />
+        <activity android:name=".NotificationActivity" android:label="@string/title_activity_notification" />
+        <activity android:name=".AlertDialogActivity" android:label="@string/title_activity_alert_dialog" />
+        <activity android:name=".ButtonEventDemoActivity" android:label="Button Event Demo" />
+        <activity android:name=".LoginUI.LoginBasicLayout" android:label="Login Basic Layout" />
+
         <activity android:name=".ImageDemoActivity" android:label="Image Demo" />
         <activity android:name=".OptionControlActivity" android:label="Option Control Demo" />
         <activity android:name=".TouchEventForViewActivity" android:label="触屏演示" />
