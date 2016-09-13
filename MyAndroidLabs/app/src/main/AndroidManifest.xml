@@ -72,6 +72,8 @@
 
         <activity android:name=".LayoutMgr.FrameLayoutDemo" android:label="帧布局" />
         <activity android:name=".LayoutMgr.DrawerLayoutDemoActivity" android:label="侧滑菜单布局" />
+
+        <activity android:name=".LayoutMgr.ScrollViewDemoActivity" android:label="ScrollView滚动条控件" />
     </application>
 
 </manifest>

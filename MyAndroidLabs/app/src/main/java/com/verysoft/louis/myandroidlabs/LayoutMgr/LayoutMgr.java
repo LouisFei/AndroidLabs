@@ -100,6 +100,15 @@ public class LayoutMgr extends Activity {
                 startActivity(intent);
             }
         });
+
+        //滚动条控件（垂直、水平）
+        findViewById(R.id.btnScrollView).setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(LayoutMgr.this, ScrollViewDemoActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
 }
