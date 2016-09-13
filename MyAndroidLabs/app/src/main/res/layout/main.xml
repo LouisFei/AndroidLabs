@@ -1,80 +1,83 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.verysoft.louis.myandroidlabs.MainActivity"
-    android:orientation="vertical">
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/text_control_ui"
-        android:id="@+id/btnControlUI"
-        android:layout_alignTop="@+id/button1"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/text_layout_manager"
-        android:id="@+id/btnLayoutMgr" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_control_ui"
+            android:id="@+id/btnControlUI"
+            android:layout_alignTop="@+id/button1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/text_basic_control"
-        android:id="@+id/btnBasicComponent" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_layout_manager"
+            android:id="@+id/btnLayoutMgr" />
 
-    <Button android:id="@+id/btnToast"
-        android:text="@string/text_toast_demo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_basic_control"
+            android:id="@+id/btnBasicComponent" />
 
-    <Button android:id="@+id/btnNotification"
-        android:text="@string/text_notification"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        <Button android:id="@+id/btnToast"
+            android:text="@string/text_toast_demo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
 
-    <Button android:id="@+id/btnAlertDialog"
-        android:text="AlertDialog"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        <Button android:id="@+id/btnNotification"
+            android:text="@string/text_notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
 
-    <Button android:id="@+id/btnEventDemo"
-        android:text="按钮事件监听Demo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        <Button android:id="@+id/btnAlertDialog"
+            android:text="AlertDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
 
-    <Button android:id="@+id/btnShowLoginDemo"
-        android:text="Login Demo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        <Button android:id="@+id/btnEventDemo"
+            android:text="按钮事件监听Demo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
 
-    <Button android:id="@+id/btnImageDemo"
-        android:text="Image Demo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        <Button android:id="@+id/btnShowLoginDemo"
+            android:text="Login Demo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
 
-    <Button
-        android:id="@+id/btnOptionControl"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="选项控件"
-        android:background="@color/red"/>
+        <Button android:id="@+id/btnImageDemo"
+            android:text="Image Demo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
 
-    <Button
-        android:id="@+id/btnTouchDemo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="触屏演示" />
+        <Button
+            android:id="@+id/btnOptionControl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="选项控件"
+            android:background="@color/red"/>
 
-    <Button
-        android:text="@string/test"
-        android:background="@color/red"
-        android:layout_width="@dimen/button_width"
-        android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btnTouchDemo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="触屏演示" />
 
-</LinearLayout>
+        <Button
+            android:text="@string/test"
+            android:background="@color/red"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</ScrollView>

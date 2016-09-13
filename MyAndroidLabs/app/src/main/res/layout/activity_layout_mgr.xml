@@ -1,77 +1,81 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.verysoft.louis.myandroidlabs.LayoutMgr.LayoutMgr"
-    android:orientation="vertical">
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="线性布局（水平、垂直）"
+            android:id="@+id/btnLinearLayout" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="线性布局（动态改变对齐方式）"
+            android:id="@+id/btnLinearGravity" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="相对布局"
+            android:id="@+id/btnRelativeLayout" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="相对布局2"
+            android:id="@+id/btnRelativeLayout2" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="登录界面（线性与相对布局组合嵌套）"
+            android:id="@+id/btnLoginDemo" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="表格布局（基础用法）"
+            android:id="@+id/btnTableLayout1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="表格布局（列的扩展收缩折叠）"
+            android:id="@+id/btnTableLayout2" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="网格布局"
+            android:id="@+id/btnGridLayout" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="帧布局"
+            android:id="@+id/btnFrameLayout" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Drawer Layout侧滑菜单布局"
+            android:id="@+id/btnDrawerLayout"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ScrollView滚动条控件"
+            android:id="@+id/btnScrollView"/>
+
+    </LinearLayout>
+</ScrollView>
 
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="线性布局（水平、垂直）"
-        android:id="@+id/btnLinearLayout" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="线性布局（动态改变对齐方式）"
-        android:id="@+id/btnLinearGravity" />
-
-    <Button
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="相对布局"
-    android:id="@+id/btnRelativeLayout" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="相对布局2"
-        android:id="@+id/btnRelativeLayout2" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="登录界面（线性与相对布局组合嵌套）"
-        android:id="@+id/btnLoginDemo" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="表格布局（基础用法）"
-        android:id="@+id/btnTableLayout1" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="表格布局（列的扩展收缩折叠）"
-        android:id="@+id/btnTableLayout2" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="网格布局"
-        android:id="@+id/btnGridLayout" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="帧布局"
-        android:id="@+id/btnFrameLayout" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Drawer Layout侧滑菜单布局"
-        android:id="@+id/btnDrawerLayout"/>
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="ScrollView滚动条控件"
-        android:id="@+id/btnScrollView"/>
-
-</LinearLayout>
