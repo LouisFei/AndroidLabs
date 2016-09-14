@@ -33,6 +33,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         findViewById(R.id.btnImageDemo).setOnClickListener(this);
         findViewById(R.id.btnOptionControl).setOnClickListener(this);
         findViewById(R.id.btnTouchDemo).setOnClickListener(this);
+        findViewById(R.id.btnDemo).setOnClickListener(this);
 
         //在代码中获取字符串资源
         Resources res = getResources();
@@ -99,6 +100,11 @@ public class MainActivity extends Activity implements View.OnClickListener {
             }
             case R.id.btnTouchDemo:{
                 Intent intent = new Intent(MainActivity.this, TouchEventForViewActivity.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.btnDemo:{
+                Intent intent = new Intent(MainActivity.this, DemoActivity.class);
                 startActivity(intent);
                 break;
             }

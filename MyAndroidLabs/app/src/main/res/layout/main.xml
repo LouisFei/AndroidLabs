@@ -79,5 +79,11 @@
             android:layout_width="@dimen/button_width"
             android:layout_height="wrap_content" />
 
+        <Button
+            android:id="@+id/btnDemo"
+            android:text="Demo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
     </LinearLayout>
 </ScrollView>

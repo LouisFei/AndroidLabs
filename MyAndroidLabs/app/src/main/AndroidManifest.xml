@@ -47,6 +47,9 @@
         <activity android:name=".LayoutMgr.DrawerLayoutDemoActivity" android:label="侧滑菜单布局" />
 
         <activity android:name=".LayoutMgr.ScrollViewDemoActivity" android:label="ScrollView滚动条控件" />
+
+        <activity android:name=".DemoActivity" android:label="演示主界面" />
+        <activity android:name=".DemoTest.MaskDemo" android:label="遮罩效果的实现" />
     </application>
 
 </manifest>
