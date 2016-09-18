@@ -20,3 +20,6 @@ public class CustomButtonActivity extends Activity {
 
     }
 }
+
+// 深入学习
+// http://blog.csdn.net/brokge/article/details/9713041
