@@ -16,8 +16,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
         <Button
-            android:id="@+id/button2"
-            android:text="Demo1"
+            android:id="@+id/btnCustomButton"
+            android:text="圆角镂空按钮"
             android:onClick="button_onclick"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />

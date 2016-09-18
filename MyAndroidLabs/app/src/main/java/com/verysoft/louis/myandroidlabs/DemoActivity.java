@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.verysoft.louis.myandroidlabs.DemoTest.CustomButtonActivity;
 import com.verysoft.louis.myandroidlabs.DemoTest.MaskDemo;
 import com.verysoft.louis.myandroidlabs.R;
 
@@ -23,6 +24,11 @@ public class DemoActivity extends Activity {
         switch (view.getId()){
             case R.id.btnMask:{
                 Intent intent = new Intent(this, MaskDemo.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.btnCustomButton:{
+                Intent intent = new Intent(this, CustomButtonActivity.class);
                 startActivity(intent);
                 break;
             }

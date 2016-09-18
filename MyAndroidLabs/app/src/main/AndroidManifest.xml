@@ -50,6 +50,8 @@
 
         <activity android:name=".DemoActivity" android:label="演示主界面" />
         <activity android:name=".DemoTest.MaskDemo" android:label="遮罩效果的实现" />
+
+        <activity android:name=".DemoTest.CustomButtonActivity" android:label="圆角镂空按钮"/>
     </application>
 
 </manifest>
