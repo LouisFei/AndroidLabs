@@ -26,4 +26,6 @@
     <string name="password">密 码:</string>
     <string name="username_hint">请输入用户名或手机号</string>
     <string name="password_hint">请输入密码</string>
+
+    <string name="text_style_and_theme">样式和主题</string>
 </resources>

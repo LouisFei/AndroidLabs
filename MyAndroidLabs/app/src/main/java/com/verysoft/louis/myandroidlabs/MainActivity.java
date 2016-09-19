@@ -46,6 +46,11 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
         switch (view.getId())
         {
+            case R.id.btnStyleAndTheme:{
+                Intent intent = new Intent(MainActivity.this, StylesAndThemesActivity.class);
+                startActivity(intent);
+                break;
+            }
             case R.id.btnControlUI: {
                 Intent intent = new Intent(MainActivity.this, ControlUI.class);
                 startActivity(intent);

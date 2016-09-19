@@ -61,6 +61,11 @@
         <activity android:name=".DemoTest.MaskDemo" android:label="遮罩效果的实现" />
 
         <activity android:name=".DemoTest.CustomButtonActivity" android:label="圆角镂空按钮"/>
+
+        <!-- 样式和主题 -->
+        <activity android:name=".StylesAndThemesActivity" android:label="样式和主题" android:theme="@style/custom_theme" />
+
+
     </application>
 
 </manifest>

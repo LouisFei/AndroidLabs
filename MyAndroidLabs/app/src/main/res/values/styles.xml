@@ -10,4 +10,22 @@
         <item name="android:textColor">#ff0000</item>
     </style>
 
+    <style name="basic_btn">
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <!--parent方式继承-->
+    <style name="red_bg_btn" parent="basic_btn">
+        <item name="android:background">#d20c0c</item>
+    </style>
+
+    <!--点方式继承-->
+    <style name="red_bg_btn.white_text">
+        <item name="android:textColor">#fff</item>
+    </style>
+    
+    <style name="custom_theme" parent="Base.Theme.AppCompat.Dialog">
+        <item name="android:background">#e9f1dc69</item>
+    </style>
+
 </resources>
