@@ -46,6 +46,11 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
         switch (view.getId())
         {
+            case R.id.btnSplashScreen:{
+                Intent intent = new Intent(MainActivity.this, SplashScreenActivity.class);
+                startActivity(intent);
+                break;
+            }
             case R.id.btnStyleAndTheme:{
                 Intent intent = new Intent(MainActivity.this, StylesAndThemesActivity.class);
                 startActivity(intent);

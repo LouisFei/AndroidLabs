@@ -28,4 +28,12 @@
         <item name="android:background">#e9f1dc69</item>
     </style>
 
+    <style name="Theme.Splash" parent="android:Theme">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
 </resources>

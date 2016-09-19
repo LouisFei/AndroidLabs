@@ -10,6 +10,13 @@
         android:orientation="vertical">
 
         <Button
+            android:id="@+id/btnSplashScreen"
+            android:text="Splash Screen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick" />
+
+        <Button
             android:id="@+id/btnStyleAndTheme"
             android:text="@string/text_style_and_theme"
             android:layout_width="wrap_content"
