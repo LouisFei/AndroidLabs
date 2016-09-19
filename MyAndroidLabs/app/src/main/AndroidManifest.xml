@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.verysoft.louis.myandroidlabs" >
 
+    <!--
+        AndroidManifest.xml文件解析
+        http://www.cnblogs.com/pilang/archive/2011/04/20/2022932.html
+    -->
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -15,9 +20,9 @@
         <!--组件必须在Manifest.xml文件中说明-->
         <activity android:name=".MainActivity" android:label="@string/title_activity_main" >
             <intent-filter>
-                <!--入口点-->
+                <!--应用程序的入口点-->
                 <action android:name="android.intent.action.MAIN" />
-                <!--启动项-->
+                <!--启动项 决定应用程序是否显示在程序列表里-->
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
