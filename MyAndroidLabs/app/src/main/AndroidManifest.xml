@@ -7,6 +7,9 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+        <!--
+            主题theme的玩法：http://www.cnblogs.com/zhouyou96/p/5323138.html
+        -->
 
         <!--四大基本组件：Activity, ContentProvider, Service, BroadcastReceiver-->
         <!--组件必须在Manifest.xml文件中说明-->
