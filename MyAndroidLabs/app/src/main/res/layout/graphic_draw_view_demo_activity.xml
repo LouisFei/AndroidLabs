@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.verysoft.louis.myandroidlabs.Graphic.DrawView
+        android:layout_width="118dp"
+        android:layout_height="80dp" />
+
+    <com.verysoft.louis.myandroidlabs.Graphic.DrawView2
+        android:layout_width="120dp"
+        android:layout_height="118dp"
+        android:layout_x="103dp"
+        android:layout_y="0dp" />
+
+    <com.verysoft.louis.myandroidlabs.Graphic.DrawView3
+        android:layout_width="287dp"
+        android:layout_height="173dp"
+        android:layout_x="5dp"
+        android:layout_y="151dp" />
+
+    <com.verysoft.louis.myandroidlabs.Graphic.DrawView4
+        android:layout_width="146dp"
+        android:layout_height="56dp"
+        android:layout_x="215dp"
+        android:layout_y="22dp" />
+
+</AbsoluteLayout>

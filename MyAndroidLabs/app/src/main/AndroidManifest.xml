@@ -67,6 +67,9 @@
 
         <activity android:name=".SplashScreenActivity" android:label="启动页" android:theme="@style/Theme.Splash" />
 
+        <activity android:name=".Graphic.MainActivity" android:label="图形图像处理" />
+        <activity android:name=".Graphic.DrawViewDemoActivity" />
+
     </application>
 
 </manifest>

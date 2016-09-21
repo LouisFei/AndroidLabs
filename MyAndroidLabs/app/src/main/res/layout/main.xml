@@ -96,5 +96,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
+        <Button
+            android:id="@+id/btnGraphic"
+            android:text="图形图像处理技术"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"/>
+
     </LinearLayout>
 </ScrollView>
